@@ -301,7 +301,7 @@ const HistoryPrice = () => {
 
   // Hooks để quản lý các giá trị trong component
   const [searchQuery, setSearchQuery] = useState("");
-  const [orders, setOrders] = useState(sampleOrders); // Đặt giá trị ban đầu là dữ liệu mẫu
+  const [orders, setOrders] = useState(sampleOrders); 
   const [currentPage, setCurrentPage] = useState<number>(1);
   const rowsPerPage = 5; // Mỗi trang chỉ hiển thị 5 dòng dữ liệu
   const visiblePageCount = 3;
